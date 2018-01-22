@@ -1,0 +1,56 @@
+<div class="FormValidations well padding-0-xs SpeakerSeq-' + Sequence + '" id=' + Sequence + '>
+<div class="col-md-12 margin-top-15 padding-0">
+<div class="col-md-4"><label>Speaker Name</label><p class="form-control form-control-style-1" style="width:100%;overflow-x: auto;overflow-y: auto;" id=SpeakerName' + Sequence + '>' + SpeakerName + '</p></div>'
+<div class="col-md-3" style="display:none"><label>Speaker Email</label><p class="form-control form-control-style-1" id=SpeakerEmail' + Sequence + '>' + SpeakerEmail + '</p></div>
+<div class="col-md-3" style="display:none"><label>Speaker Ecode</label><p class="form-control form-control-style-1" id=SpeakerECode' + Sequence + '>' + EmployeeCode + '</p></div>
+<div class="col-md-4"><label> Speaker Department</label><p class="form-control form-control-style-1" style="width:100%;overflow-x: auto;overflow-y: auto;" id=SpeakerDept' + Sequence + '>' + SpeakerDepartment + '</p></div></div>'
+
+<div class="col-md-12 margin-top-15 padding-0">
+
+<div class="col-md-12">
+<div class="col-md-12 border-style-1">
+
+<div class="col-md-7">
+<label class="margin-bottom-0" id=' + Sequence + '>Q1 . Content/Presentation (relevance, adherence to timeline)</label>
+</div>
+
+<div class="col-md-5">
+<div class="FormValidationsRadio col-md-12 padding-0 validationContent' + Sequence + '" id="validationContent' + Sequence + '">
+<label class="radio-inline">
+<input type="radio" title="contentData' + Sequence + ' " class="contentData"  name="ContentRelevance' + Sequence + '" value="Can Do Better" id=' + Sequence + ' >Can Do Better</label>
+<label class="radio-inline">'
+<input type="radio" class="contentDatahide" name="ContentRelevance' + Sequence + '" value="Satisfactory" id=' + Sequence + ' >Satisfactory</label>
+<label class="radio-inline">
+<input type="radio" class="contentDatahide" name="ContentRelevance' + Sequence + '" value="Good" id=' + Sequence + ' >Good</label>
+<label class="radio-inline">'
+<input type="radio" class="contentDatahide" name="ContentRelevance' + Sequence + '" value="Excellent" id=' + Sequence + ' >Excellent</label>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="col-md-12">
+<div class=" col-md-12 margin-top-10  border-style-1">
+
+<div class="col-md-7">
+<label class="margin-bottom-0" id=' + Sequence + '>Q2 . Speakers ability to engage, share knowledge & respond to questions</label>
+</div>
+
+<div class="col-md-5">'
+<div class="FormValidationsRadio col-md-12 padding-0 validationSpeaker' + Sequence + '" id="validationSpeaker' + Sequence + '">
+<label class="radio-inline">
+<input title="contentData' + Sequence + ' " class="contentData" type="radio" name="SpeakerAbility' + Sequence + '" id=' + Sequence + ' value="Can Do Better">Can Do Better</label>
+<label class="radio-inline">
+<input  class="contentDatahide" type="radio" name="SpeakerAbility' + Sequence + '" id=' + Sequence + ' value="Satisfactory">Satisfactory</label>
+<label class="radio-inline">
+<input type="radio" class="contentDatahide" name="SpeakerAbility' + Sequence + '" id=' + Sequence + ' value="Good">Good</label>
+<label class="radio-inline">
+<input type="radio" class="contentDatahide" name="SpeakerAbility' + Sequence + '" id=' + Sequence + ' value="Excellent">Excellent</label>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="col-md-12 padding-0 margin-top-10" id="divCanDoBetter' + Sequence + '" style="display:none"><div class="col-md-12" ><textarea class="form-control CandobetterValidation"  maxlength="150" placeholder="Suggestions to Improve" id="txtCanDoBetter' + Sequence + '"></textarea></div></div></div><div class=" clear"></div></div>
